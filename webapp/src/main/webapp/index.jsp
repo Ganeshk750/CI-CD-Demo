@@ -10,7 +10,6 @@
 <body>
  
 <div class="container">
-   <div class="col-md-6">
   <div class="panel-group">
     <div class="panel panel-primary">
       <div class="panel-heading">DEMO APP</div>
@@ -19,14 +18,12 @@
       <div class="panel-body">
 	    <ol>
 		  <li>AWS</li>
-		  <li></li>
-		  <li></li>
-		  <li></li>
+		  <li>Jenkins</li>
+		  <li>Tomcat8.5</li>
 		</ol>
 		<% out.print(new java.util.Date()); %>
 	  </div>
     </div>
-  </div>
   </div>
 </div>
 </body>
