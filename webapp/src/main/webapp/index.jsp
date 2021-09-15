@@ -10,11 +10,12 @@
 <body>
  
 <div class="container">
-  <h2>DevOps Group</h2>
-  <p>Wel Come To DevOps World!</p>
+   <div class="col-md-6">
   <div class="panel-group">
     <div class="panel panel-primary">
       <div class="panel-heading">DEMO APP</div>
+	  <h2>DevOps Group</h2>
+      <p>Wel Come To DevOps World!</p>
       <div class="panel-body">
 	    <ol>
 		  <li>AWS</li>
@@ -22,47 +23,12 @@
 		  <li></li>
 		  <li></li>
 		</ol>
+		<% out.print(new java.util.Date()); %>
 	  </div>
     </div>
-
+  </div>
   </div>
 </div>
-
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
